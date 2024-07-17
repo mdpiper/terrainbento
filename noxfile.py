@@ -49,8 +49,6 @@ def test_notebooks(session: nox.Session) -> None:
         "--nbmake",
         "--nbmake-kernel=python3",
         "--nbmake-timeout=3000",
-        "-n",
-        "auto",
         "-vvv",
     ] + session.posargs
 
